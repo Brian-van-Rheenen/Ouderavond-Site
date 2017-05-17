@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/** RESETTER:
+ * Add the correct display in IE 9-.
+ */
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+body
+{
+	width: 100%;
+	margin: 0 auto; 
+	background: #C5E0B3 !important;
+}
+
+header
+{
+	background: #759FCC;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	line-height: 70px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-bottom: 5%;
+	padding-left: 8.5%;
+}
+
+img
+{
+	margin-left: 10%;
+	float: left;
+}
+
+#uitloggen
+{
+	float: right;
+	color: #FFFFFF;
+	line-height: 75px;
+	padding-top: 0% !important;
+}
+
+#niks
+{
+	float: right;
+	width: 8.5% !important;
+}
+
+#help
+{
+	margin: 0px;
+}
+
+#back
+{
+	width: 75px;
+	height: 75px;
+	margin: 0;
+	padding: 7px;
+}
+
+#blok
+{
+	width: 75px;
+	height: 75px;
+	margin: 0;
+	display: inline-block;
+	float: left;
+}
+
+#logout
+{
+	float: right;
+	width: 75px;
+	height: 75px;
+	margin: 0;
+	padding: 7px;
+}
+
+#middle 
+{
+	width: 100%;
+	text-align: center;
+}
+
+#middle_knoppen
+{
+	width: 100%;
+	text-align: center;
+}
+
+#middle_knop_1
+{
+	margin-top: 2.5% !important;
+	margin-right: 1%;
+}
+
+#middle_knop_2
+{
+	margin-top: 2.5% !important;
+}
+
+#index_fout_middle p
+{
+	padding-top: 0% !important;
+	width: 100%;
+	text-align: center;
+}
+
+p
+{
+	font-size: 20px;
+	font-weight: bold;
+	color: #759FCC;
+	display: inline-block;
+	padding-top: 2.5% !important;
+}
+
+#knop
+{
+	float: right;
+	margin-top: 2.5% !important;
+	margin-right: 10% !important;
+}
+
+.hr1
+{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border-top: 15px solid#759FCC;
+}
+
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+	background-color: rgba(0,0,0,.05);
+}
+
+#form-group-row
+{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#opmerkingen
+{
+	width: 81.8%;
+}
+
+#labelOpmerkingen
+{
+	float: left;
+	width: 17.43%;
+	padding-left: 15px;
+}
+
+#labelbreedte
+{
+	width: 17.45%;
+}
+
+#inlogbreedte
+{
+	width: 71% !important;
+}
+
+#knopbreedte
+{
+	width: 81.7%;
+}
+
+#hiddenform
+{
+	display:none;
+}
+
+#verplicht
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+	display: inline-block;
+	padding-top: 0 !important;
+	margin-left: 15px;
+	margin-bottom: 15px !important;
+}
+
+#delete
+{
+	margin-left: 30px;
+}
+
+#edit
+{
+	margin-left: 25px;
+}
+
+.col-sm-10
+{
+	width: 68% !important;
+}
+
+a.tooltips {
+	position: relative;
+	display: inline;
+}
+a.tooltips span {
+	position: absolute;
+	width:300px;
+	color: #FFFFFF;
+	background: #000000;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	visibility: hidden;
+	border-radius: 6px;
+}
+a.tooltips span:after {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -8px;
+	width: 0; height: 0;
+	border-top: 8px solid #000000;
+	border-right: 8px solid transparent;
+	border-left: 8px solid transparent;
+}
+a:hover.tooltips span {
+	visibility: visible;
+	opacity: 0.8;
+	bottom: 30px;
+	left: 40%;
+	margin-left: -167px;
+	z-index: 999;
+}
